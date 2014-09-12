@@ -1,9 +1,22 @@
 Ramón el ladrón
 ===============
-Juego para Amstrad CPC. Consiste en salvar las bolsas de dinero
-
 Juego realizado para el concurso retro Amstrad CPC organizado por la Universida de Alicante y Byte Realms.
 http://concursocpc.byterealms.com/
+
+El jefe de Ramón, que es un ladrón, le acaba de encargar el golpe de su vida, un banco. Pero algo sale mal, alguien se ha chivado y la pasma ha rodeado el banco. Uno de sus compañeros se pasea con un furgón al otro lado de la calle y Ramón tiene la genial idea de lanzar las bolsas de dinero a través del cordón policial sin que estos se den cuenta, ya que no son muy espabilados.
+
+Controles
+=========
+Los controles durante el juego son las teclas izquierda y derecha para mover a Ramón y el espacio para lanzar bolsas.
+En las pantallas de menú la única opción es pulsar Enter para continuar o reiniciar.
+
+Mecánica de juego
+=================
+El juego consiste en mover a Ramón a izquierda o derecha y lanzar bolsas mediante la tecla                           
+espacio para intentar acertar en el furgón evitando que la policía atrape alguna.
+Cada policía tiene su propia personalidad: el primero te va a seguir allá donde vayas, por lo que                               
+tendrás que correr para dejarlo atrás, el segundo se lanzará detrás de la bolsa en cuanto la vea,                              
+y el tercero patrulla de derecha a izquierda de la pantalla recorriendo una zona.
 
 Nombre del grupo: Code Monkeys
 ==============================
