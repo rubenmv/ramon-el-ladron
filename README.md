@@ -1,6 +1,6 @@
 Ramón el ladrón
 ===============
-Juego realizado para el concurso retro Amstrad CPC 464 organizado por la Universidad de Alicante y Byte Realms.
+Juego realizado para el concurso retro Amstrad CPC 464 del año 2013 organizado por la Universidad de Alicante y Byte Realms.
 http://concursocpc.byterealms.com/
 
 Repositorio del juego en GitHub: https://github.com/rubenmv/ramon-el-ladron/
