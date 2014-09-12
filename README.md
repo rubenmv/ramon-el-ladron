@@ -12,11 +12,8 @@ En las pantallas de menú la única opción es pulsar Enter para continuar o rei
 
 Mecánica de juego
 =================
-El juego consiste en mover a Ramón a izquierda o derecha y lanzar bolsas mediante la tecla                           
-espacio para intentar acertar en el furgón evitando que la policía atrape alguna.
-Cada policía tiene su propia personalidad: el primero te va a seguir allá donde vayas, por lo que                               
-tendrás que correr para dejarlo atrás, el segundo se lanzará detrás de la bolsa en cuanto la vea,                              
-y el tercero patrulla de derecha a izquierda de la pantalla recorriendo una zona.
+El juego consiste en mover a Ramón a izquierda o derecha y lanzar bolsas mediante la tecla espacio para intentar acertar en el furgón evitando que la policía atrape alguna.
+Cada policía tiene su propia personalidad: el primero te va a seguir allá donde vayas, por lo que tendrás que correr para dejarlo atrás, el segundo se lanzará detrás de la bolsa en cuanto la vea, y el tercero patrulla de derecha a izquierda de la pantalla recorriendo una zona.
 
 Nombre del grupo: Code Monkeys
 ==============================
