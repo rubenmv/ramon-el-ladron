@@ -1,0 +1,8 @@
+1. Instalar el copilador SDCC y compilar mediante la siguente linea
+sdcc -mz80 --oldralloc --code-loc 0x6038 --data-loc 0 --no-std-crt0 crt0_cpc.rel putchar.rel ramon.c
+
+2. Descargar el programa hex2bin y ejecutar la siguiente linea
+hex2bin ramon.ihx
+
+3. Descargar el programa CPCDiskXP y ejecutar
+CPCDiskXP -File ramon.bin -AddAmsdosHeader 6000 -AddToNewDsk ramon_el_ladron.dsk

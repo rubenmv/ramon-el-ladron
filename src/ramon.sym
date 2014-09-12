@@ -1,0 +1,147 @@
+ASxxxx Assembler V02.00 + NoICE + SDCC mods  (Zilog Z80 / Hitachi HD64180), page 1.
+
+Symbol Table
+
+    .__.$$$.                                                    =  2710 L
+    .__.ABS.                                                    =  0000 G
+    .__.CPU.                                                    =  0000 L
+    .__.H$L.                                                    =  0000 L
+  0 _DrawTile                                                      03D9 GR
+  0 _DrawTile_end                                                  0554 GR
+  0 _DrawTile_start                                                03D9 GR
+  0 _Game                                                          1030 GR
+  0 _GameOver                                                      0F3B GR
+  0 _GameOver_end                                                  0F9C GR
+  0 _GameOver_start                                                0F3B GR
+  0 _Game_end                                                      10A1 GR
+  0 _Game_start                                                    1030 GR
+  0 _GetChar                                                       0352 GR
+  0 _GetChar_end                                                   0366 GR
+  0 _GetChar_start                                                 0352 GR
+  0 _GetTime                                                       0000 GR
+  0 _GetTime_end                                                   0022 GR
+  0 _GetTime_start                                                 0000 GR
+  0 _InitGame                                                      05CB GR
+  0 _InitGame_end                                                  092A GR
+  0 _InitGame_start                                                05CB GR
+  0 _InitMode0                                                     058E GR
+  0 _InitMode0_end                                                 059C GR
+  0 _InitMode0_start                                               058E GR
+  0 _InitMode1                                                     059C GR
+  0 _InitMode1_end                                                 05AB GR
+  0 _InitMode1_start                                               059C GR
+  0 _MoveBolsa                                                     0ADE GR
+  0 _MoveBolsa_end                                                 0C0D GR
+  0 _MoveBolsa_start                                               0ADE GR
+  0 _MoveCamion                                                    0E46 GR
+  0 _MoveCamion_end                                                0F3B GR
+  0 _MoveCamion_start                                              0E46 GR
+  0 _MovePlayer                                                    092A GR
+  0 _MovePlayer_end                                                0ADE GR
+  0 _MovePlayer_start                                              092A GR
+  0 _MovePolicias                                                  0C0D GR
+  0 _MovePolicias_end                                              0E46 GR
+  0 _MovePolicias_start                                            0C0D GR
+  0 _Palette                                                       0342 GR
+  0 _PutSpriteMode0                                                0366 GR
+  0 _PutSpriteMode0Trans                                           039D GR
+  0 _PutSpriteMode0Trans_end                                       03D9 GR
+  0 _PutSpriteMode0Trans_start                                     039D GR
+  0 _PutSpriteMode0_end                                            039D GR
+  0 _PutSpriteMode0_start                                          0366 GR
+  0 _SetColor                                                      0554 GR
+  0 _SetColor_end                                                  0569 GR
+  0 _SetColor_start                                                0554 GR
+  0 _SetCursor                                                     057A GR
+  0 _SetCursor_end                                                 058E GR
+  0 _SetCursor_start                                               057A GR
+  0 _SetMode                                                       0569 GR
+  0 _SetMode_end                                                   057A GR
+  0 _SetMode_start                                                 0569 GR
+ASxxxx Assembler V02.00 + NoICE + SDCC mods  (Zilog Z80 / Hitachi HD64180), page 2.
+
+Symbol Table
+
+  0 _ShowMenu                                                      10BB GR
+  0 _ShowMenu_end                                                  1111 GR
+  0 _ShowMenu_start                                                10BB GR
+  0 _SpriteBanco                                                   0022 GR
+  0 _SpriteBolsa                                                   0112 GR
+  0 _SpriteCamion1                                                 018A GR
+  0 _SpriteCamion2                                                 01B2 GR
+  0 _SpriteCamion3                                                 01DA GR
+  0 _SpriteCamion4                                                 0202 GR
+  0 _SpriteCamion5                                                 022A GR
+  0 _SpriteCamion6                                                 0252 GR
+  0 _SpriteCarretera                                               027A GR
+  0 _SpriteLadrillo                                                004A GR
+  0 _SpriteLadron1_1                                               013A GR
+  0 _SpriteLadron1_2                                               0162 GR
+  0 _SpritePlayerF1                                                0072 GR
+  0 _SpritePlayerF2                                                009A GR
+  0 _SpritePoliF1                                                  00C2 GR
+  0 _SpritePoliF2                                                  00EA GR
+  0 _SpritePuerta1                                                 02A2 GR
+  0 _SpritePuerta2                                                 02CA GR
+  0 _SpritePuerta3                                                 02F2 GR
+  0 _SpritePuerta4                                                 031A GR
+  1 __eTileType                                                    0001 GR
+    __moduchar_rrx_s                                               **** GX
+  0 __str_0                                                        0F9C R
+  0 __str_1                                                        0FBF R
+  0 __str_10                                                       1161 R
+  0 __str_11                                                       117B R
+  0 __str_2                                                        0FD1 R
+  0 __str_3                                                        0FF1 R
+  0 __str_4                                                        1010 R
+  0 __str_5                                                        10A1 R
+  0 __str_6                                                        10B5 R
+  0 __str_7                                                        1111 R
+  0 __str_8                                                        1121 R
+  0 __str_9                                                        113F R
+  1 _aBackgroundTiles                                              0002 GR
+  1 _aBolsa                                                        0198 GR
+  1 _aCamion                                                       01A8 GR
+  1 _aPlayer                                                       0192 GR
+  1 _aPoli1                                                        019C GR
+  1 _aPoli2                                                        01A0 GR
+  1 _aPoli3                                                        01A4 GR
+  1 _char3                                                         01B4 GR
+  1 _char4                                                         01B5 GR
+  0 _end_getchar                                                   035E R
+  1 _globalTimer                                                   0000 GR
+  0 _initPaleta                                                    05AB GR
+  0 _initPaleta_end                                                05CB GR
+  0 _initPaleta_start                                              05AB GR
+  0 _loop_alto                                                     0380 R
+  0 _loop_alto2                                                    03B7 R
+  0 _loop_ancho                                                    0383 R
+  0 _loop_ancho2                                                   03BA R
+  0 _main                                                          118E GR
+ASxxxx Assembler V02.00 + NoICE + SDCC mods  (Zilog Z80 / Hitachi HD64180), page 3.
+
+Symbol Table
+
+  0 _main_end                                                      1196 GR
+  0 _main_start                                                    118E GR
+  1 _nGetChar                                                      01B6 GR
+  0 _notpaint                                                      03C1 R
+    _printf                                                        **** GX
+  0 _sig_linea                                                     0397 R
+  0 _sig_linea2                                                    03D3 R
+
+
+ASxxxx Assembler V02.00 + NoICE + SDCC mods  (Zilog Z80 / Hitachi HD64180), page 4.
+
+Area Table
+
+   0 _CODE                                      size 1196   flags    0
+   1 _DATA                                      size  1B7   flags    0
+   2 _INITIALIZED                               size    0   flags    0
+   3 _DABS                                      size    0   flags    8
+   4 _HOME                                      size    0   flags    0
+   5 _GSINIT                                    size    0   flags    0
+   6 _GSFINAL                                   size    0   flags    0
+   7 _INITIALIZER                               size    0   flags    0
+   8 _CABS                                      size    0   flags    8
+

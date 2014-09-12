@@ -1,0 +1,265 @@
+ASxxxx Linker V03.00 + NoICE + sdld,  page 1.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     00000000  .__.ABS.                           
+     00000000  l__BSS                          
+     00000000  l__CABS                         
+     00000000  l__DABS                         
+     00000000  l__GSINIT                       
+     00000000  l__HEADER                       
+     00000000  l__HEAP                         
+     00000000  l__HOME                         
+     00000000  l__INITIALIZED                  
+     00000000  l__INITIALIZER                  
+     00000000  s__CABS                         
+     00000000  s__DABS                         
+     00000000  s__HEADER                       
+     00000000  s__HEADER0                      
+     00000000  s__HEADER1                      
+     00000001  l__GSFINAL                      
+     00000003  l__HEADER0                      
+     00000009  l__HEADER1                      
+     000001B7  l__DATA                         
+     00001EDC  l__CODE                         
+     00006038  s__CODE                         
+     00007F14  s__DATA                         
+     000080CB  s__GSFINAL                      
+     000080CB  s__GSINIT                       
+     000080CB  s__HOME                         
+     000080CB  s__INITIALIZED                  
+     000080CC  s__BSS                          
+     000080CC  s__HEAP                         
+     000080CC  s__INITIALIZER                  
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 2.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+_CODE                               00006038    00001EDC =        7900. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     00006038  _GetTime                           ramon
+     00006038  _GetTime_start                     ramon
+     0000605A  _GetTime_end                       ramon
+     0000605A  _SpriteBanco                       ramon
+     00006082  _SpriteLadrillo                    ramon
+     000060AA  _SpritePlayerF1                    ramon
+     000060D2  _SpritePlayerF2                    ramon
+     000060FA  _SpritePoliF1                      ramon
+     00006122  _SpritePoliF2                      ramon
+     0000614A  _SpriteBolsa                       ramon
+     00006172  _SpriteLadron1_1                   ramon
+     0000619A  _SpriteLadron1_2                   ramon
+     000061C2  _SpriteCamion1                     ramon
+     000061EA  _SpriteCamion2                     ramon
+     00006212  _SpriteCamion3                     ramon
+     0000623A  _SpriteCamion4                     ramon
+     00006262  _SpriteCamion5                     ramon
+     0000628A  _SpriteCamion6                     ramon
+     000062B2  _SpriteCarretera                   ramon
+     000062DA  _SpritePuerta1                     ramon
+     00006302  _SpritePuerta2                     ramon
+     0000632A  _SpritePuerta3                     ramon
+     00006352  _SpritePuerta4                     ramon
+     0000637A  _Palette                           ramon
+     0000638A  _GetChar                           ramon
+     0000638A  _GetChar_start                     ramon
+     0000639E  _GetChar_end                       ramon
+     0000639E  _PutSpriteMode0                    ramon
+     0000639E  _PutSpriteMode0_start              ramon
+     000063D5  _PutSpriteMode0Trans               ramon
+     000063D5  _PutSpriteMode0Trans_start         ramon
+     000063D5  _PutSpriteMode0_end                ramon
+     00006411  _DrawTile                          ramon
+     00006411  _DrawTile_start                    ramon
+     00006411  _PutSpriteMode0Trans_end           ramon
+     0000658C  _DrawTile_end                      ramon
+     0000658C  _SetColor                          ramon
+     0000658C  _SetColor_start                    ramon
+     000065A1  _SetColor_end                      ramon
+     000065A1  _SetMode                           ramon
+     000065A1  _SetMode_start                     ramon
+     000065B2  _SetCursor                         ramon
+     000065B2  _SetCursor_start                   ramon
+     000065B2  _SetMode_end                       ramon
+     000065C6  _InitMode0                         ramon
+     000065C6  _InitMode0_start                   ramon
+     000065C6  _SetCursor_end                     ramon
+     000065D4  _InitMode0_end                     ramon
+     000065D4  _InitMode1                         ramon
+     000065D4  _InitMode1_start                   ramon
+ASxxxx Linker V03.00 + NoICE + sdld,  page 3.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+_CODE                               00006038    00001EDC =        7900. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     000065E3  _InitMode1_end                     ramon
+     000065E3  _initPaleta                        ramon
+     000065E3  _initPaleta_start                  ramon
+     00006603  _InitGame                          ramon
+     00006603  _InitGame_start                    ramon
+     00006603  _initPaleta_end                    ramon
+     00006962  _InitGame_end                      ramon
+     00006962  _MovePlayer                        ramon
+     00006962  _MovePlayer_start                  ramon
+     00006B16  _MoveBolsa                         ramon
+     00006B16  _MoveBolsa_start                   ramon
+     00006B16  _MovePlayer_end                    ramon
+     00006C45  _MoveBolsa_end                     ramon
+     00006C45  _MovePolicias                      ramon
+     00006C45  _MovePolicias_start                ramon
+     00006E7E  _MoveCamion                        ramon
+     00006E7E  _MoveCamion_start                  ramon
+     00006E7E  _MovePolicias_end                  ramon
+     00006F73  _GameOver                          ramon
+     00006F73  _GameOver_start                    ramon
+     00006F73  _MoveCamion_end                    ramon
+     00006FD4  _GameOver_end                      ramon
+     00007068  _Game                              ramon
+     00007068  _Game_start                        ramon
+     000070D9  _Game_end                          ramon
+     000070F3  _ShowMenu                          ramon
+     000070F3  _ShowMenu_start                    ramon
+     00007149  _ShowMenu_end                      ramon
+     000071C6  _main                              ramon
+     000071C6  _main_start                        ramon
+     000071CE  __clock                            crt0
+     000071CE  _main_end                          ramon
+     000071CF  _exit                              crt0
+     000071D0  _putchar                           
+     000071D0  _putchar_rr_s                      
+     000071D9  _putchar_rr_dbs                    
+     000071DE  __moduchar_rrx_s                   
+     000071E5  __moduchar_rrx_hds                 
+     000071EA  __moduint_rrx_s                    
+     000071F0  __moduint_rrx_hds                  
+     000071F5  __divuint_rrx_s                    
+     000071FD  __divuchar_rrx_s                   
+     00007204  __divu8                            
+     00007204  __divuchar_rrx_hds                 
+     00007207  __divu16                           
+     00007207  __divuint_rrx_hds                  
+     00007242  _vprintf                           vprintf
+     00007242  _vprintf_start                     vprintf
+     00007262  _printf                            vprintf
+     00007262  _printf_start                      vprintf
+     00007262  _vprintf_end                       vprintf
+ASxxxx Linker V03.00 + NoICE + sdld,  page 4.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+_CODE                               00006038    00001EDC =        7900. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     0000727F  _printf_end                        vprintf
+     0000738E  __print_format                     printf_large
+     0000738E  __print_format_start               printf_large
+     00007EF9  __print_format_end                 printf_large
+     00007F04  _strlen                            
+     00007F13  __sdcc_call_hl                     
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 5.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+_DATA                               00007F14    000001B7 =         439. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     00007F14  _globalTimer                       ramon
+     00007F15  __eTileType                        ramon
+     00007F16  _aBackgroundTiles                  ramon
+     000080A6  _aPlayer                           ramon
+     000080AC  _aBolsa                            ramon
+     000080B0  _aPoli1                            ramon
+     000080B4  _aPoli2                            ramon
+     000080B8  _aPoli3                            ramon
+     000080BC  _aCamion                           ramon
+     000080C8  _char3                             ramon
+     000080C9  _char4                             ramon
+     000080CA  _nGetChar                          ramon
+ASxxxx Linker V03.00 + NoICE + sdld,  page 6.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+_GSINIT                             000080CB    00000000 =           0. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     000080CB  gsinit                             crt0
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 7.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+_GSFINAL                            000080CB    00000001 =           1. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+ASxxxx Linker V03.00 + NoICE + sdld,  page 8.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+_HEADER0                            00000000    00000003 =           3. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+ASxxxx Linker V03.00 + NoICE + sdld,  page 9.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+_HEADER1                            00000000    00000009 =           9. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+ASxxxx Linker V03.00 + NoICE + sdld,  page 10.
+
+Files Linked                              [ module(s) ]
+
+ramon.rel                                 [ ramon ]
+crt0_cpc.rel                              [ crt0 ]
+putchar.rel                               [  ]
+
+
+Libraries Linked                          [ object file ]
+
+C:\Program Files (x86)\SDCC\bin\..\lib\z80/z80.lib
+                                          [ modunsigned.rel ]
+C:\Program Files (x86)\SDCC\bin\..\lib\z80/z80.lib
+                                          [ divunsigned.rel ]
+C:\Program Files (x86)\SDCC\bin\..\lib\z80/z80.lib
+                                          [ vprintf.rel ]
+C:\Program Files (x86)\SDCC\bin\..\lib\z80/z80.lib
+                                          [ printf_large.rel ]
+C:\Program Files (x86)\SDCC\bin\..\lib\z80/z80.lib
+                                          [ strlen.rel ]
+C:\Program Files (x86)\SDCC\bin\..\lib\z80/z80.lib
+                                          [ crtcall.rel ]
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 11.
+
+User Base Address Definitions
+
+_CODE = 0x6038
+_DATA = 0x0000
+
+
