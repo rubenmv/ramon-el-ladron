@@ -15,6 +15,8 @@ Mecánica de juego
 El juego consiste en mover a Ramón a izquierda o derecha y lanzar bolsas mediante la tecla espacio para intentar acertar en el furgón evitando que la policía atrape alguna.
 Cada policía tiene su propia personalidad: el primero te va a seguir allá donde vayas, por lo que tendrás que correr para dejarlo atrás, el segundo se lanzará detrás de la bolsa en cuanto la vea, y el tercero patrulla de derecha a izquierda de la pantalla recorriendo una zona.
 
+<img src="https://raw.githubusercontent.com/rubenmv/ramon-el-ladron/master/screenshot.png" alt="ramon el ladron captura de juego" />
+
 Nombre del grupo: Code Monkeys
 ==============================
 - Martin Málaga, Alejandro; talon_amm@hotmail.com
